@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Install Webclip</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 320px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  a.install-btn {
+    display: inline-block;
+    background: #fff;
+    color: #2a5298;
+    padding: 14px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.4);
+    transition: all 0.3s ease;
+  }
+
+  a.install-btn:hover {
+    background: #2a5298;
+    color: #fff;
+    box-shadow: 0 5px 25px rgba(42,82,152,0.8);
+  }
+
+  footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📱</div>
+    <h1>Add to Home Screen</h1>
+    <p>Tap the button below to install the webclip shortcut to your device's home screen.</p>
+    <a class="install-btn" href="your-webclip.mobileconfig" download>Install Webclip</a>
+    <footer>Contact support if you need any help.</footer>
+  </div>
+</body>
+</html>
