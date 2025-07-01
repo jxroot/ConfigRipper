@@ -26,7 +26,7 @@ When used creatively in a red team operation, they enable phishing, traffic mani
 | **Certificates** | Install CA / Client Certs     | Trust fake CAs, enable TLS interception        |
 | **MDM**          | Enroll Device                 | Remote control via MDM protocol                |
 | **System**       | SSO, Notifications            | Kerberos / SAML setup, notification control    |
-| **UI Attack**       | WebClip Payload            | Fake app icon on home screen linking to phishing page and Install Bad Fonts or make crash on parse config   
+| **UI Attack**       | WebClip Payload            | Fake app icon on home screen linking to phishing page good for use with Evilginx Can Install Bad Fonts or make crash on parse config   
 
 
 
